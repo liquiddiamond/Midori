@@ -1,0 +1,11 @@
+!!! 5
+%html
+%head
+	%title Baseagent
+	= stylesheet_link_tag "application"
+	%link{rel:"stylesheet", href: "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"} 
+	= javascript_include_tag "application"
+	= csrf_meta_tags
+%body
+	.content
+		%div{style:"margin: 25px 50px;"}= yield

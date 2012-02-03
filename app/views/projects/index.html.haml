@@ -1,0 +1,16 @@
+- if notice
+	.alert-message
+		= notice
+%h1 Progetti di Basecamp attivi su Freeagent
+- @projects.each do	|project|
+	- if project.basecamp_id
+		%h3= project.name
+		%ul
+			%li
+				Status:
+				%span.label.notice= project.status
+			%li
+				Basecamp:
+				%span.label.success OK
+			
+		= link_to 'Sincronizza', sync_project_path(project), class: 'btn small'

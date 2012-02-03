@@ -1,0 +1,8 @@
+app/models/task.rb
+app/models/time_entry.rb
+app/models/timeslip.rb
+app/models/todo_item.rb
+app/models/todo_list.rb
+app/models/project.rb
+app/models/basecamp_project.rb
+*~
