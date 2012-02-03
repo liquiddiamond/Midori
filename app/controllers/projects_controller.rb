@@ -12,7 +12,7 @@ class ProjectsController < ApplicationController
   def sync
     #il Project è SEMPRE riferito al progetto presente su Freeagent, il quale ha l'attributo basecamp_id che funge da chiave
     project = Project.find(params[:id])
-    
+
     #questa linea serve a trovare i todolist di un progetto di 
     @todo_lists = TodoList.find(:all, params: {project_id: project.basecamp_id})
     

@@ -5822,3 +5822,1453 @@ ActiveResource::UnauthorizedAccess (Failed.  Response code = 401.  Response mess
 Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
 Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
 Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:19:00 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 714ms
+
+ActiveResource::UnauthorizedAccess (Failed.  Response code = 401.  Response message = Unauthorized.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:21:55 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 1731ms
+
+NoMethodError (undefined method `basecamp_id' for #<BasecampProject:0x9f36c00>):
+  app/controllers/projects_controller.rb:17:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:25:31 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 680ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.8ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:26:07 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 731ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:40:36 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 705ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:40:49 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 814ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:40:51 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 751ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:41:12 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 649ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:42:57 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 678ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:43:09 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 812ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/projects/7181868/sync" for 127.0.0.1 at 2012-02-03 17:43:10 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"7181868"}
+Completed 500 Internal Server Error in 647ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:14:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:48:34 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 936ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:48:35 +0100
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:35 +0100
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:35 +0100
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:35 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:48:51 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 696ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:52 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:52 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:48:52 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:52 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:48:54 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 695ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:48:54 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:54 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:54 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:54 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:49:15 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 1378ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:11:in `index'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:49:31 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 700ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:49:31 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 696ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:49:32 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:49:32 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:49:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:49:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:49:44 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 741ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:49:45 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:49:45 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:49:45 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:49:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:49:58 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 707ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:49:58 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:49:58 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:49:58 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:49:58 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:50:22 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 895ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:50:23 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:50:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:50:23 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:50:23 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 17:51:02 +0100
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 761ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:51:03 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:51:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:51:03 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:51:03 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 17:54:44 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2049ms
+
+ActiveResource::ForbiddenAccess (Failed.  Response code = 403.  Response message = Forbidden.):
+  app/controllers/projects_controller.rb:17:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 17:55:54 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 705ms
+
+ActionView::MissingTemplate (Missing template projects/sync, application/sync with {:handlers=>[:erb, :builder, :coffee, :haml], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/milo/Scrivania/rails_ld/baseagent/app/views"
+):
+  
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 17:56:12 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2250ms
+
+ActiveResource::ForbiddenAccess (Failed.  Response code = 403.  Response message = Forbidden.):
+  app/controllers/projects_controller.rb:17:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 17:59:21 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2155ms
+
+ActiveResource::ForbiddenAccess (Failed.  Response code = 403.  Response message = Forbidden.):
+  app/controllers/projects_controller.rb:17:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:00:25 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2568ms
+
+ActiveResource::ForbiddenAccess (Failed.  Response code = 403.  Response message = Forbidden.):
+  app/controllers/projects_controller.rb:17:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:00:38 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 903ms
+
+ActionView::MissingTemplate (Missing template projects/sync, application/sync with {:handlers=>[:erb, :builder, :coffee, :haml], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/milo/Scrivania/rails_ld/baseagent/app/views"
+):
+  
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:01:23 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 690ms
+
+ActionView::Template::Error (Indenting at the beginning of the document is illegal.):
+    1: 		%p= debug
+  app/views/projects/sync.html.haml:1
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:01:34 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 764ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: %p= debug
+  app/views/projects/sync.html.haml:1:in `_app_views_projects_sync_html_haml__749331462_88383770'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:01:44 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 657ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:01:45 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:01:45 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:01:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:01:45 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:02:13 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 650ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:02:14 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:02:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:02:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:02:14 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:02:30 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 662ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:02:31 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:02:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:02:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:02:31 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:02:43 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 693ms
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/projects_controller.rb:15:in `+'
+  app/controllers/projects_controller.rb:15:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:02:57 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 657ms
+
+NoMethodError (undefined method `to_str' for 7365130:Fixnum):
+  app/controllers/projects_controller.rb:15:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:03:18 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 649ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:03:19 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:19 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:19 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:19 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:03:25 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 652ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:03:26 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:26 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:26 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:26 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:03:34 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 663ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:03:35 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:35 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:35 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:35 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:03:38 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 681ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:03:39 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:39 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:39 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:03:39 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:06:20 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2171ms
+
+ArgumentError (expected an attributes Hash, got [{"billing_period"=>"day", "billing_rate"=>#<BigDecimal:b72e3bc,'0.4E3',9(18)>, "id"=>256078, "is_billable"=>true, "name"=>"Project Management", "project_id"=>169891, "status"=>"Hidden"}]):
+  app/controllers/projects_controller.rb:25:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:09:11 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2152ms
+
+ArgumentError (expected an attributes Hash, got [{"billing_period"=>"day", "billing_rate"=>#<BigDecimal:b199c30,'0.4E3',9(18)>, "id"=>256078, "is_billable"=>true, "name"=>"Project Management", "project_id"=>169891, "status"=>"Hidden"}]):
+  app/controllers/projects_controller.rb:25:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:11:09 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2135ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:12:19 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2628ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:25:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:12:23 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2142ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:25:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:12:38 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 1696ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.size):
+  app/controllers/projects_controller.rb:27:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:12:47 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 1607ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.size):
+  app/controllers/projects_controller.rb:27:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:12:57 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 1323ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:12:58 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:12:58 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:12:58 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:12:58 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:13:01 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 1286ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:13:02 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:13:02 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:13:02 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:13:02 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:13:13 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 1269ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+  app/controllers/projects_controller.rb:27:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:14:05 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 1981ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:14:07 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:14:07 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:14:07 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:14:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:14:17 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 1959ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.size):
+  app/controllers/projects_controller.rb:27:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:15:30 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 1974ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+  app/controllers/projects_controller.rb:27:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:16:52 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2029ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+  app/controllers/projects_controller.rb:27:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:23:16 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 3844ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:23:20 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:23:20 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:23:20 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:23:20 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:23:38 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 3927ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:23:42 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:23:42 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:23:42 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:23:42 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:23:42 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2795ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:24:09 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 4094ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:24:13 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:24:13 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:24:13 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:24:13 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:24:36 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2936ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:24:58 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2838ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:25:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:25:58 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 4205ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:26:20 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 4217ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:29:21 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 16165ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:47:in `block in sync'
+  app/controllers/projects_controller.rb:40:in `each'
+  app/controllers/projects_controller.rb:40:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:30:57 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 15473ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:47:in `block in sync'
+  app/controllers/projects_controller.rb:40:in `each'
+  app/controllers/projects_controller.rb:40:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:44:44 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2865ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:25:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:45:20 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 2838ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:45:23 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:45:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:45:23 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:45:23 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:49:08 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2157ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:49:29 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2097ms
+
+URI::InvalidURIError (bad URI(is not URI?): /projects/169891/tasks/new/{:project_id=>169891}.xml):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:50:00 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2737ms
+
+NoMethodError (undefined method `site' for #<Task:0xb798848>):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:50:38 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2555ms
+
+NoMethodError (undefined method `site' for #<ProjectsController:0xbc3c480>):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:50:52 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 3203ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:54:18 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2245ms
+
+NoMethodError (undefined method `site' for #<Task:0xb63c864>):
+  app/controllers/projects_controller.rb:32:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:54:26 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2144ms
+
+NoMethodError (undefined method `site' for #<Task:0xbd3fff8>):
+  app/controllers/projects_controller.rb:32:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:54:33 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed   in 161604ms
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:57:21 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 18:57:22 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 18:57:22 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 18:57:22 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 18:57:22 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:57:46 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 3003ms
+
+NoMethodError (undefined method `site' for #<Task:0x9c1ba98>):
+  app/controllers/projects_controller.rb:32:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 18:59:09 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2667ms
+
+NoMethodError (undefined method `getSite' for #<Task:0x9afe19c>):
+  app/controllers/projects_controller.rb:32:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:00:45 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2094ms
+
+NoMethodError (undefined method `site' for #<Task:0x9bd59e4>):
+  app/controllers/projects_controller.rb:32:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:06:05 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 3153ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:07:05 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 3178ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:07:13 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2726ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:07:47 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2815ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:08:20 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2828ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:08:40 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Rendered projects/sync.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 2075ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 19:08:42 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 19:08:42 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 19:08:42 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 19:08:42 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:09:05 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 3262ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:22:07 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2903ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:22:55 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 3041ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:23:05 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2779ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:23:19 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 2835ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:24:31 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 3304ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/projects/169891/sync" for 127.0.0.1 at 2012-02-03 19:24:57 +0100
+  Processing by ProjectsController#sync as HTML
+  Parameters: {"id"=>"169891"}
+Completed 500 Internal Server Error in 3499ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/projects_controller.rb:31:in `block in sync'
+  app/controllers/projects_controller.rb:28:in `each'
+  app/controllers/projects_controller.rb:28:in `sync'
+
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/milo/.rvm/gems/ruby-1.9.3-p0@baseagent/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
